@@ -34,12 +34,12 @@ public class Exercicio1 {
 
         // calculando a média de 2 jeitos:
 
-        double media = soma / temperaturas.size();
-        System.out.println("A média semestral é: " + media);
+        double media1 = soma / temperaturas.size();
+        System.out.println("A média semestral é: " + media1);
 
         System.out.println("\n----------------------------------------------------");
         System.out.println("");
-        media = temperaturas.stream()
+        double media = temperaturas.stream()
                 .mapToDouble(Double::doubleValue)
                 .average()
                 .orElse(0d);
