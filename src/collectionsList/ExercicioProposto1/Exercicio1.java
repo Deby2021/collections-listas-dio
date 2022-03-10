@@ -31,30 +31,30 @@ public class Exercicio1 {
         System.out.println("\n----------------------------------------------------");
         System.out.print("Todas as temperaturas: ");
         temperaturas.forEach(t -> System.out.print(t + " "));
-       
 
         // calculando a média de 2 jeitos:
 
-        /*
-         * double media = soma/temperaturas.size();
-         * System.out.println("A média semestral é: " + media);
-         */
+        double media = soma / temperaturas.size();
+        System.out.println("A média semestral é: " + media);
+
         System.out.println("\n----------------------------------------------------");
         System.out.println("");
-        double media = temperaturas.stream()
+        media = temperaturas.stream()
                 .mapToDouble(Double::doubleValue)
                 .average()
                 .orElse(0d);
         System.out.printf("\nMédia das temperaturas: %.1f\n", media);
 
         // exibindo as temperaturas acima da média
-        /*System.out.println("Exibindo as temperaturas acima da média = " + media);
-        Iterator<Double> iterator1 = temperaturas.iterator();
-        while (iterator1.hasNext()) {
-            Double next = iterator1.next();
-            if (next > media)
-                System.out.println(next);
-        }*/
+        /*
+         * System.out.println("Exibindo as temperaturas acima da média = " + media);
+         * Iterator<Double> iterator1 = temperaturas.iterator();
+         * while (iterator1.hasNext()) {
+         * Double next = iterator1.next();
+         * if (next > media)
+         * System.out.println(next);
+         * }
+         */
         System.out.println("----------------------------------------------------");
         System.out.println("");
 
@@ -74,26 +74,26 @@ public class Exercicio1 {
             if (next > media) {
                 switch (count) {
                     case (0):
-                        System.out.printf("\n1 - Janeiro: %.1f" , next);
+                        System.out.printf("\n1 - Janeiro: %.1f", next);
                         break;
                     case (1):
-                        System.out.printf("\n2 - Fevereiro: %.1f" , next);
+                        System.out.printf("\n2 - Fevereiro: %.1f", next);
                         break;
                     case (2):
-                        System.out.printf("\n3 - Março: %.1f" , next);
+                        System.out.printf("\n3 - Março: %.1f", next);
                         break;
                     case (3):
-                        System.out.printf("\n4 - Abril: %.1f" , next);
+                        System.out.printf("\n4 - Abril: %.1f", next);
                         break;
                     case (4):
-                        System.out.printf("\n5 - Maio: %.1f" , next);
+                        System.out.printf("\n5 - Maio: %.1f", next);
                         break;
                     case (5):
-                        System.out.printf("\n6 - Junho: %.1f" , next);
+                        System.out.printf("\n6 - Junho: %.1f", next);
                         break;
                     default:
                         System.out.println("\nNão houve temperatura acima da média");
-                        
+
                 }
             }
             count++;
