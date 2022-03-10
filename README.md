@@ -1,18 +1,46 @@
-## Getting Started
+# **Curso Introdutório Collections Java**
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Resolução dos exercícios propostos: ***CURSO INTRODUTÓRIO COLLECTIONS FRAMEWORK JAVA.***
+Fiz este curso com a plataforma de cursos online [DIGITAL INNOVATION ONE](https://web.dio.me/home)
+🧡💛 disponibilizado de forma gratuita para a comunidade dos desenvolvedores Java.
 
-## Folder Structure
+---------------------------------------------------------------------------------------
 
-The workspace contains two folders by default, where:
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+📚 # Ementa
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+🔸 Visão geral: Java Collections Framework e hierarquia
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+🔸 List
+Coleção com iterações ordenadas: List
+Conhecendo os métodos
+Ordenação da coleção List
 
-## Dependency Management
+🔸 Set
+Coleção com singularidade: Set
+Conhecendo os métodos
+Ordenação da coleção Set
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+🔸 Map
+Coleção de pares: Map
+Conhecendo os métodos
+Ordenação de Map
+
+🔸 Stream API
+Visão geral: Classe Anônima - Functional Interface - Lambda - Method Reference
+Stream API
+Conhecendo as operações
+
+🤝 Contribuindo
+Este repositório foi criado para fins de estudo, então contribua com ele. Se te ajudei de alguma forma, ficarei feliz em saber. 
+E caso você conheça alguém que se identidique com o conteúdo, não deixe de compatilhar.
+
+Se possível:
+
+⭐️ Star o projeto
+
+🐛 Encontrar e relatar issues
+
+Disponibilizado com ♥ por [Débora-Deby2021](https://www.linkedin.com/in/d%C3%A9bora-cristina-cabrera-3753b8211/)
+
+
